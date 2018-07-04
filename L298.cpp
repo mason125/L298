@@ -21,13 +21,6 @@ L298::L298(int in1, int in2, int in3, int in4)
 	input4 = in4;
 }
 
-//individual motor functions (private)
-/*void L298::enable()
-{
-	high(enable_motor1);
-	high(enable_motor2);
-}*/
-
 void L298::forward_motor1()
 {
 	high(input1);
